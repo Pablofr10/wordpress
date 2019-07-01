@@ -10,6 +10,10 @@ body {
 
 body {
 	background: #f1f1f1;
+	background: url(../images/img-login.jpg);
+	background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
 	min-width: 0;
 	color: #444;
 	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
@@ -167,8 +171,7 @@ p {
 }
 
 .login h1 a {
-	background-image: url(../images/w-logo-blue.png?ver=20131202);
-	background-image: none, url(../images/wordpress-logo.svg?ver=20131107);
+	background-image: url(../images/admin-logo.png?ver=20131202);
 	background-size: 84px;
 	background-position: center top;
 	background-repeat: no-repeat;
@@ -210,7 +213,8 @@ p {
 .login #nav a,
 .login #backtoblog a {
 	text-decoration: none;
-	color: #555d66;
+	color: #07468e;
+	font-size: 1rem;
 }
 
 .login #nav a:hover,
